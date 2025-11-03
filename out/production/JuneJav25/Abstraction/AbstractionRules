@@ -1,0 +1,36 @@
+What is Abstraction in Java?
+It is a process in which we show only essential parts and hide implementations
+details.
+
+ Abstraction => Hiding implementation details and showing only required part.
+
+How do we achieve abstraction?
+A) Abstract Class
+B) Interface
+
+Abstraction => We have to do something but we don't tell now to do it.
+
+
+ABSTRACTION RULES=>
+Abstract methods are those methods which does not have method body and
+it ends with semicolon.
+
+1) It is not mandatory to have abstract method in abstract class.
+
+2) If we define any abstract method in a class then that class must be an abstract
+Class.
+
+3) We can not create an object of Abstract class.
+
+4) If one abstract class extends another abstract class, then it's not mandatory
+for that child class to provide method implementations of abstract methods of
+ super class.
+
+5) In concrete/ Non abstract class extends abstract class, then it's mandatory for
+that child class to provide method.
+
+Implementation of abstract methods of super class.
+
+The whole purpose of Abstraction is that some other class must extends that class
+and provide methods implementation to the abstract method of abstract class.
+

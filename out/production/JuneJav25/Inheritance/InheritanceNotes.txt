@@ -1,0 +1,31 @@
+What is Inheritance in java?
+It is a process through which child class can access methods or variables
+of parent class.
+
+why should we use Inheritance?
+To avoid code duplication or we can do code reusability
+
+
+How to achieve inheritance?
+we use 'extends' keyword to established parent-child relationship between
+different classes.
+
+
+There are 5 types of inheritance
+1)Single
+2)Multiple
+3)Multilevel
+4)Hierarchical
+5)Hybrid
+
+
+1)Single inheritance
+1 parent class => 1 child class
+
+2)Multilevel inheritance
+GreatgrandParent=> GrandParent=> Parent=> child=> Grandchild
+
+3)Hierarchical inheritance
+1 Parent=> 2 Childrens => 1 child
+
+

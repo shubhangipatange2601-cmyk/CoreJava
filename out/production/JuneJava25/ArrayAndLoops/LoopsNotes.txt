@@ -1,0 +1,29 @@
+   what are loops?
+   It is a block of code which will repeat until certain conditions are true.
+
+   Types of Loop in java?
+   1) For loop =>
+   The for loop in Java is a control flow statement used to repeatedly execute a block of code
+   a specified number of times. It is particularly useful when the number of iterations is
+   known beforehand.
+
+        int[] array = {10,20,30,40,50,60,70,80,90,100}
+               //array length = 10
+               for(int i = 0; i < array.length; i++){
+                       i = 0  0< 10                    //true
+                       i = 9  9< 10                    //true
+                       i = 10  10< 10                  //false
+
+            system.out.println("element present at index"+i + "is" + array[i];
+            }
+
+
+        //initialisation => where we can start
+
+       // termination-condition => This boolean expression is evaluated before each iteration.
+       // If the condition is true, the loop body executes; if false, the loop terminates.
+
+       // Update =>This statement is executed after each iteration of the loop body.
+       // It usually modifies the loop control variable
+       // (e.g., incrementing or decrementing it).
+

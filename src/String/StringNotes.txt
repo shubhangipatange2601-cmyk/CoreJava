@@ -1,0 +1,43 @@
+1)String is a non-primitive data type.
+String size is not fixed.
+
+2)String is the sequence of characters(Array of character)
+Char[] c = {'d', 'e','e', 'p','a','k'}  // CharSequence
+String 8 = String(c)
+
+3)String is a class
+public final class String extends implements charSequence,Serializable,
+Comparable.
+
+4)String s = new String();
+
+String is an object=> immutable.
+
+String s = "Deepak "
+
+5) To create Strings there are 3 classes
+ String > StringBuffer > StringBuilder
+
+1)Method AREA => 1.6 version=> permgen
+2)Heap Area => 1.7 version=> SCP
+3)Stack
+4)PC Register
+5)Native Method Area
+
+String s1 = new String("Deepak");   //2 objects
+String s2 = new String("Rahul");    //2 objects
+String s3 = new String("Deepak");   //1 object
+String s4 = new String("amit");     //1 object
+String s5 = new String("Deepak");   //0 object
+
+
+//String Immutability
+Immutability means Unchangeable
+
+Immutability concept is used for "String Objects" i.e.String objects are
+immutable it means Once Object is created; its data
+or state can't be changed but a new string object is created.
+
+
+
+

@@ -1,0 +1,41 @@
+What are arrays in Java?
+Array in Java is a container object that holds a group or collection of elements of a similar data type.
+In other words, an array is a fixed-size data structure that is used to hold more than one value of the
+same data type.
+
+It is generally used to store a group of elements (or values) or a collection of related data items
+that share a common name.
+
+So, we can store a group of strings, a group of int values, or a group of float values in the array.
+But, we cannot store some int values or some float values in the array.
+
+Elements of an array in java are stored in a contiguous memory location.
+When the memory space for an array is allocated, the array size must be given (or fixed)
+that represents the number of elements.
+
+In short, an array in java is a collection of values of similar data type, stored in the
+contiguous memory location, sharing a common name, and distinguished by an element’s index.
+
+
+
+Why we need array in Java?
+Using an array, we can declare a single variable that can hold all the values.
+That is, an array variable of a type can hold as many values of that type as we want.
+
+The advantage of using an array is that we can simplify programming by replacing many statements
+with just one or two statements and increasing understanding readability.
+
+
+
+    int[] intArray = new  int[10];
+
+        index
+        0 1 2 3 4 5 6 7 8 9
+
+        size   => 10
+        first index = 0
+        int[] intArray = new  int[20];     size = 20
+        first index = 0
+        last index = 19 (size - 1)
+        Notes.txt
+        Displaying Notes.txt.

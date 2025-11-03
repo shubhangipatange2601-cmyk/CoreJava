@@ -1,0 +1,30 @@
+What is Casting in java?
+
+
+
+
+
+
+Narrowing vs Widening?
+
+Primitive data types?
+
+Upcasting vs DownCasting?
+
+Incompatible data type error?
+when two data types are not same and not compatible and gets error then it
+is called incompatible data type error.
+
+
+ ClassName reference  = new ClassName();
+
+  Reference Type      =  object type
+    Parent reference  = new Child();   //Upcasting Natural/implicit casting
+
+    Child reference   = new Parent()   //Down casting/explicit casting
+   (Down casting will work at runtime, but will fail at runtime)
+
+  implicit vs explicit
+
+
+

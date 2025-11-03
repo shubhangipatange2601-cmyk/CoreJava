@@ -1,0 +1,39 @@
+What is Method overloading in Java?
+It is process in which we create methods in same class with same name
+but different argument list or different method signature.
+
+
+What is method signature?
+method name + parameter list
+
+void name(String name){
+}
+
+Rules:
+1) Method signature must be different or method name must be same
+but parameter list also be different.
+    A) Different number of params
+    B) Order of params must be different
+    C) Types of params must be different
+
+2) Within same class.
+3) return type can be different
+
+
+
+1) Same Method Name: Methods must have the same name.
+2) Different Parameter Lists: Methods must have different parameter lists, differing in:
+        Number of parameters: Different quantities of parameters.
+        Types of parameters: Parameters of varying data types.
+        Order of parameters: Sequence of data types of parameters differing.
+3) Occurs within the same class: Method overloading must occur within the same class.
+
+4) Return Type: The return type can be the same or different.
+Changing only the return type is not sufficient for overloading.
+
+5) Access Modifiers: Methods can have different access modifiers
+(e.g., public, private, protected).
+
+
+
+Why should we use Method Overloading?

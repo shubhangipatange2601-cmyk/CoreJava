@@ -1,0 +1,13 @@
+What is Encapsulation?
+=> Getting data in single unit
+=> Wrapping a data in single unit which called as class.
+
+
+How do we achieve it?
+=> making variables/data members private and to access those private data
+members we provide public getter/setter methods.
+
+Why we need it?
+
+
+capsule =>
