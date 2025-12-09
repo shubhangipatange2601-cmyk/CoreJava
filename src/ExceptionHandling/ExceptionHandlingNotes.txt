@@ -1,0 +1,130 @@
+An Exception is an unwanted or unexpected event that occurs during the
+execution of a program and disrupts the normal flow of instructions.
+
+Dividing a number by zero
+
+Accessing an array index out of range
+
+Entering invalid input
+
+Opening a file that does not exist
+
+
+Exception handling is the mechanism used in Java to handle runtime errors
+so that the program does not crash and continues its normal flow.
+
+In Java, exceptions are handled using:
+✔ try
+✔ catch
+✔ throw
+✔ throws
+✔ finally
+
+
+Error Defination
+An error represents a serious issue that occurs in the system (not in the program).
+Errors cannot be handled by the programmer.
+
+OutOfMemoryError
+StackOverflowError
+
+these are caused by system failure, memory issues, etc.
+
+Throwable Hierarchy Definition
+In Java, Throwable is the parent class for all errors and exceptions.
+          Object
+             |
+         Throwable
+         /        \
+     Error      Exception
+                   |
+           RuntimeException
+
+
+A runtime exception is an exception that occurs at runtime
+(during program execution) and the compiler does NOT force you to handle it.
+
+Examples:
+ArithmeticException
+NullPointerException
+ArrayIndexOutOfBoundsException
+
+A checked exception is an exception that must be handled at compile-time
+using try-catch or throws.
+If not handled, the program will NOT compile.
+
+Examples:
+IOException
+SQLException
+ClassNotFoundException
+
+| **Error**                                                  | **Exception**                               |
+| ---------------------------------------------------------- | ------------------------------------------- |
+| Represents serious problems in the system environment.     | Represents problems in the program.         |
+| Cannot be handled by the programmer.                       | Can be handled using try–catch.             |
+| Occurs due to system issues. (memory leak, stack overflow) | Occurs due to logical or input mistakes.    |
+| Examples: OutOfMemoryError, StackOverflowError             | Examples: NullPointerException, IOException |
+
+
+| **Checked Exception**                       | **Unchecked Exception**            |
+| ------------------------------------------- | ---------------------------------- |
+| Checked at compile-time.                    | Checked at runtime.                |
+| Must be handled using try–catch or throws.  | No need to compulsorily handle.    |
+| Usually from external resources (file, DB). | Caused by coding mistakes.         |
+| Examples: IOException, SQLException         | Examples: ArithmeticException, NPE |
+
+
+| **throw**                                   | **throws**                             |
+| ------------------------------------------- | -------------------------------------- |
+| Used to **manually throw** an exception.    | Used to **declare** an exception.      |
+| Inside method body.                         | In method signature.                   |
+| Only one exception can be thrown at a time. | Can declare multiple exceptions.       |
+| Example: `throw new Exception("error")`     | Example: `void m() throws IOException` |
+
+
+
+| Keyword        | Meaning                                                       |
+| -------------- | ------------------------------------------------------------- |
+| **final**      | Keyword used to make variable/method/class unchangeable.      |
+| **finally**    | Block that always executes (used in exception handling).      |
+| **finalize()** | Method called by Garbage Collector before object destruction. |
+
+
+Unchecked Exception
+A custom exception is a user-defined exception created by extending the
+Exception class when built-in exceptions do not meet your requirements.
+
+     class AgeInvalidException extends Exception {
+         public AgeInvalidException(String msg) {
+             super(msg);
+         }
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
