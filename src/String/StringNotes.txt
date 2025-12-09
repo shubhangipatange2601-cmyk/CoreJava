@@ -1,3 +1,25 @@
+What is String in java?
+String is a non-primitive data types because it references a memory location
+where data is stored in the heap memory (or string constant pool)
+
+Why should we use String class?
+Strings in Java are fundamental for handling and manipulating textual data, offering several
+advantages that make them essential for various programming tasks.
+
+
+
+why String class is most commonly used in java?
+The String class is one of the most commonly used classes in Java due to its fundamental role
+in handling and manipulating textual data.
+
+
+ String immutable
+security
+
+
+
+
+
 1)String is a non-primitive data type.
 String size is not fixed.
 
@@ -23,6 +45,14 @@ String s = "Deepak "
 3)Stack
 4)PC Register
 5)Native Method Area
+
+string constant pool(SCP) is a special memory location was present in  Heap area which is used to store
+string literals.
+method area until 1.6 versions but after 1.6
+version it was shifted to heap area.
+
+String Constant Pool is not applicable or Garbage collection as JVM internally creates reference
+variables for each string literal object.
 
 String s1 = new String("Deepak");   //2 objects
 String s2 = new String("Rahul");    //2 objects
