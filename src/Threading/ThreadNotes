@@ -1,0 +1,19 @@
+What is thread in java?
+Independent path of execution with a process.
+
+why we need Thread in Java?
+Improve performance of an application
+does it mean we should always use threads in application?
+
+
+How to create a Thread in java?
+
+what if some task depends upon another task?can we use threading in this case?
+
+
+starvation?
+
+
+how to set thread priority?Who decides which thread will run when?
+
+ OS ThreadScheduler
